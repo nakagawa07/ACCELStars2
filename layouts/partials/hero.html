@@ -1,0 +1,190 @@
+{{ $bkg := "" }}
+
+{{ if .Params.images }}
+{{ if gt (len .Params.images) 0 }}
+{{ $bkgImage := print (index .Params.images 0) }}
+{{ $bkgURL := printf "%s%s" $.Site.BaseURL $bkgImage }}
+{{ $bkg = printf "%s%s%s" "background-image: url('" $bkgURL "');"}}
+{{ end }}
+{{ end }}
+
+<section class="hero bkg-image" style="{{ safeCSS $bkg }}" id="hero">
+
+    <!-- Content -->
+    {{ .Content }}
+    
+    <div class="top_logo"><img src="{{ .Site.BaseURL }}images/logo.png" alt=""></div>
+    
+
+    
+    <div class="top_img2col" style="display: flex; justify-content: center; margin: 100px 0 ; width: 80%;">
+        <div><img src="{{ .Site.BaseURL }}images/ac_img_01.jpeg" alt=""></div>
+        <div><img src="{{ .Site.BaseURL }}images/ac_img_02.jpeg" alt=""></div>
+    </div>
+    
+    <div class="cath01">
+        <h2>Vision2 <span class="cath01sub">睡眠を解明し、新たな治療を創造する</span></h2>
+        <div class="cath01_02">Creation of new treatments by elucidating sleep.</div>
+    </div>
+    
+    <div class="top_text">
+        <p>多くの精神疾患・神経変性疾患・発達障害は、なんらかの睡眠障害をきたすことが最新の医学研究により明らかになってきており、睡眠障害はそれらの疾患を引き起こす原因の一つとなっていることが強く疑われております。</p>
+        <p>私達は、睡眠情報を正確に観測することで疾患メカニズムを解明し、その結果として精神疾患・神経変性疾患・発達障害の診断・予防・治療につなげるというチャレンジを行っていきます。</p>
+        <p>このビジョンを実現するために、世界最高精度の睡眠測定技術を搭載したウェアラブルデバイスとデータ基盤を開発し、睡眠データと様々な医療データを掛け合わせることで生まれる新たな医療サービスの実現を目指します。</p>
+    </div>
+    
+    
+    <div class="cath02">
+       <div class="cath02sub">当社が目指す</div>
+        <h2>Real World Data Platform</h2>
+        <div class="cath02_02">ヒトシステム起因のリアルデータプラットフォーム<br>
+        System-Based Medicine Real World Data Platform</div>
+    </div>
+    
+    
+    <div class="cont03">
+     <div><img src="{{ .Site.BaseURL }}images/img_03_pc.png" alt=""></div>
+    </div>
+    
+    
+    <div class="cont5">
+        <h2>Technology</h2>
+        <div class="text">
+            <p>睡眠障害検知には中途覚醒の正しい検出が不可欠である。<br>
+            ACCELStars社は(中途覚醒を含む)覚醒を正しく検知可能。</p>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>ウェアラブルデバイス・手法</th>
+                    <th>研究者</th>
+                    <th>精度</th>
+                    <th>感度</th>
+                    <th>特異度</th>
+            </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text_black">ACCELStars</td>
+                            <td class="text_black">Ueda+, 2021</td>
+                            <td class="text_black">93.2%</td>
+                            <td class="text_black">97.2%</td>
+                            <td class="text_black">82.2%</td>
+                        </tr>
+                        <tr>
+                            <td>A社</td>
+                            <td>Kosmadopoulos+, 2014</td>
+                            <td>88.0%</td>
+                            <td>97.8%</td>
+                            <td>26.9%</td>
+                        </tr>
+                        <tr>
+                            <td>B社</td>
+                            <td>Markwald+, 2016</td>
+                            <td>89.3%</td>
+                            <td>96.7%</td>
+                            <td>37.0%</td>
+                        </tr>
+                        <tr>
+                            <td>C社</td>
+                            <td>de Zambotti+, 2016</td>
+                            <td>90.9%</td>
+                            <td>95.4%</td>
+                            <td>42.4%</td>
+                        </tr>
+                        <tr>
+                            <td>D社</td>
+                            <td>Walch+, 2019</td>
+                            <td>86.6%</td>
+                            <td>93.0%</td>
+                            <td>54.1%</td>
+                        </tr>
+                        <tr>
+                            <td>E社</td>
+                            <td>de Zambotti+, 2019</td>
+                            <td>-</td>
+                            <td>96%</td>
+                            <td>48%</td>
+                        </tr>
+                    </tbody>
+        </table>
+
+    </div>
+    
+        <div class="cont5_text">
+        □□□□□□□■□□□□□□□□□■□□□□□□□□□■□□□□□□□□□■□□□□□□□■□□□□□□□□□■□□□□□□□□□■□□□□□□□□□■<br>
+        □□□□□□□■□□□□□□□□□■□□□□□□□□□■□□□□□□□□□■□□□□□□□■□□□□□□□□□■□□□□□□□□□■□□□□□□□□□■<br>
+        □□□□□□□■□□□□□□□□□■□□□□□□□□□■□□□□□□□□□■□□□□□□□■□□□□□□□□□■□□□□□□□□<br>
+        □□□□□□□■□□□□□□□□□■□□□□□□□□□■□□□□□□□□□■□□□□□□□■□□□□□□□□□■□□□□□□□□□■□□□□□□□□□■<br>
+        □□□□□□□■□□□□□□□□□■□□□□□□□□□■□□□□□□□□□■<br>
+        □□□□□□□■□□□□□□□□□■□□□□□□□□□■□□□□□□□□□■□□□□□□□■□□□□□□□□□■□□□□□□□□□■□□□□□□□□□■<br>
+        □□□□□□□■□□□□□□□□□■□□□□□□□□□■□□□□□□□□□■<br>
+        □□□□□□□■□□□□□□□□□■□□□□□□□□□■□□□□□□□□□■□□□□□□□■□□□□□□□□□■□□□□□□□□□■□□□□□□□□□■
+        </div>
+    
+    
+    <div class="cont6">
+        
+        <h2>Strategy & Project</h2>
+        <div class="cont6_txt">
+            睡眠データを軸に人間システムを解明し、予防・治療を実現
+            <span class="cont6_text_s">人間のメカニズムを解明するPHR＋ウェラブルを軸としたデータプラットフォームで新たなと治療を実現していく</span>
+        </div>
+        
+        <div class="cont6_img"><img src="{{ .Site.BaseURL }}images/img_04.png" alt=""></div>
+        
+        
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <section id="cont04" class="clearfix">
+     <div class="cont04_box">
+      <h3>経営陣</h3>
+      <dl>
+        <dt>代表取締役CEO</dt><dd>宮原 禎</dd>
+        <dt>取締役CTO</dt><dd>上田 泰己</dd>
+        <dt>取締役</dt><dd>見満 周宜</dd>
+        <dt>社外取締役</dt><dd>岩佐 琢磨</dd>
+        <dt>執行役員</dt><dd>緒方 貴紀</dd>
+      </dl>
+      </div>
+    </section>
+    
+    
+    <div class="cont7">
+       
+     <div class="cont07_box">
+      <h3>会社概要</h3>
+      <table>
+       <thead>
+       <tr>
+        <th>社名</th><td>株式会社ACCELStars</td>
+        </tr>
+        <tr>
+        <th>業種</th><td><ul><li>睡眠測定医療機器ウェアラブルデバイス開発事業</li><li>睡眠データの臨床試験や治験への活用事業</li><li>睡眠測定の健康診断事業</li></ul></td>
+        </tr>
+        <tr>
+        <th>住所</th><td>福岡オフィス<br>〒839-0864<br>福岡県久留米市百年公園1番1号<hr>東京オフィス<br>〒113-8485<br>東京都文京区本郷7-3-1<br>東京大学南研究棟アントレプレナーラボ</td>
+        </tr>
+        <tr>
+        <th>問い合わせ先</th><td>contact@accelstars.com</td>
+        </tr>
+        </thead>
+      </table>
+      </div>
+        
+    </div>
+    
+    
+    
+    
+
+
+
+</section>
