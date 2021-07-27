@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>emojis on ACCELStars</title>
-    <link>https://nakagawa07.github.io/t-askle.micx.or.jp/tags/emojis/</link>
-    <description>Recent content in emojis on ACCELStars</description>
+    <title>emojis on ACCELStars2</title>
+    <link>https://nakagawa07.github.io/ACCELStars2/tags/emojis/</link>
+    <description>Recent content in emojis on ACCELStars2</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 28 Mar 2019 12:24:47 +0100</lastBuildDate><atom:link href="https://nakagawa07.github.io/t-askle.micx.or.jp/tags/emojis/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Mar 2019 12:24:47 +0100</lastBuildDate><atom:link href="https://nakagawa07.github.io/ACCELStars2/tags/emojis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emojis</title>
-      <link>https://nakagawa07.github.io/t-askle.micx.or.jp/blog/emojis/</link>
+      <link>https://nakagawa07.github.io/ACCELStars2/blog/emojis/</link>
       <pubDate>Thu, 28 Mar 2019 12:24:47 +0100</pubDate>
       
-      <guid>https://nakagawa07.github.io/t-askle.micx.or.jp/blog/emojis/</guid>
+      <guid>https://nakagawa07.github.io/ACCELStars2/blog/emojis/</guid>
       <description>Emoji can be enabled in a Hugo project in a number of ways. The emojify function can be called directly in templates or Inline Shortcodes.
 To enable emoji globally, set enableEmoji to true in your site’s configuration and then you can type emoji shorthand codes directly in content files; e.g.
 The Emoji cheat sheet is a useful reference for emoji shorthand codes.
