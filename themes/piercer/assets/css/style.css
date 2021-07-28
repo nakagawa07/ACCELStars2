@@ -22,7 +22,7 @@
 /* MENU */
 .menu__items {
     background-color: var(--accent);
-    border-bottom: 5px solid var(--purple);
+    border-bottom: 5px solid #000;
     flex-direction: column;
     left: 0;
     position: absolute;
