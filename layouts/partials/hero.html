@@ -17,23 +17,48 @@
     
     
     
+    <section class="sec_news">
+    
+    <div class="news_h2">NEWS</div>
+    <ul>
+      {{ range first 2 .Site.RegularPages.ByDate.Reverse }}
+        <li>
+          <time>{{.Date.Format "1月2日"}}</time>
+          <a href="{{.RelPermalink}}">{{.Title}}</a>
+        </li>
+      {{ end }}
+      <li><a href="/blog/">▶ Archives</a></li>
+    </ul>
+    
+    
+    
+    </section>
+
+    
+    
 
     <section>
         <div class="top_img2col">
             <div class="top_img2col_img"><img src="{{ .Site.BaseURL }}images/ac_img_01.jpeg" alt=""></div>
-            <div class="top_img2col_img"><img src="{{ .Site.BaseURL }}images/ac_img_02.jpeg" alt=""></div>
+            <div class="top_img2col_img pconry"><img src="{{ .Site.BaseURL }}images/ac_img_02.jpeg" alt=""></div>
         </div>
     </section>
     
     
     <section>
        <div class="sec01">
-            <div class="sec01_img"><img src="{{ .Site.BaseURL }}images/bar01.jpg" alt=""></div>
+            <div class="sec01_img pconry"><img src="{{ .Site.BaseURL }}images/bar01.jpg" alt=""></div>
             <div class="sec01_txt">
-                <div class="cath01">
+                <div class="cath01 pconry">
                     <h2>Vision <span class="cath01sub">睡眠を解明し、新たな治療を創造する</span></h2>
                     <div class="cath01_02">Creation of new treatments by elucidating sleep.</div>
                 </div>
+                
+        <div class="sponry">
+            <h2 class="sponry sph2">Vision</h2>
+            <div class="sptxt sponry"><p>睡眠を解明し、新たな治療を創造する<br>
+            Creation of new treatments by elucidating sleep.</p></div>
+        </div>
 
                 <div class="top_text">
                     <p>多くの精神疾患・神経変性疾患・発達障害は、なんらかの睡眠障害をきたすことが最新の医学研究により明らかになってきており、睡眠障害はそれらの疾患を引き起こす原因の一つとなっていることが強く疑われております。</p>
@@ -42,6 +67,7 @@
                 </div>
             </div>
         </div>
+            <div class="top_img2col_img sponry"><img src="{{ .Site.BaseURL }}images/ac_img_02.jpeg" alt=""></div>
     </section>
     
     
@@ -53,8 +79,11 @@
                 <p>睡眠は脳の病気の高感度デジカルマーカー</p>
             </div>
 
-            <div class="sec02_img">
+            <div class="sec02_img pconry">
                 <img src="{{ .Site.BaseURL }}images/back02.png" alt="">
+            </div>
+            <div class="sec02_img sponry">
+                <img src="{{ .Site.BaseURL }}images/sp_back02.png" alt="">
             </div>
 
             <div class="sec02_txt">
@@ -77,14 +106,22 @@
     <section class="sec03">
     
     <div class="sec03_cont">
-        <div class="sec03_cath">
-            <h2>Technology</h2>
-            <p>睡眠障害検知には中途覚醒の正しい検出が不可欠である。<br>
+        <div class="sec03_cath pconry">
+            <h2 class="pconry">Technology</h2>
+            <p class="pconry">睡眠障害検知には中途覚醒の正しい検出が不可欠である。<br>
             ACCELStars社は（中途覚醒を含む）覚醒を正しく検知可能。</p>
         </div>
+        
+        <div class="sponry">
+            <h2 class="sponry sph2">Technology</h2>
+            <div class="sptxt sponry"><p>睡眠障害検知には中途覚醒の正しい検出が不可欠である。<br>
+            ACCELStars社は（中途覚醒を含む）覚醒を正しく検知可能。</p></div>
+        </div>
+        
 
         <div class="sec03_imgbox">
-            <div class="sec03_img"><img src="{{ .Site.BaseURL }}images/pctable.png" alt=""></div>
+            <div class="sec03_img pconry"><img src="{{ .Site.BaseURL }}images/pctable.png" alt=""></div>
+            <div class="sec03_img sponry"><img src="{{ .Site.BaseURL }}images/sptable.png" alt=""></div>
             <div class="sec03_imgtxt">特異度とは<br>
             病気を診断する際の尺度。特異度が高いとは、疾病がない人を陰性と判定する確率が高いことを意味する。病気を持っている確率を高く判定が可能。
             </div>
@@ -111,7 +148,7 @@
                         <div class="sec04_flex_cont">
                             <div class="sec04_flex_cont01">睡眠健診</div>
                             <div class="sec04_flex_cont02_flex">
-                                <div class="sec04_flex_cont02">健康産業や<br>健康デバイスメーカーと<br>業務提携</div>
+                                <div class="sec04_flex_cont02 sp_text_center">健康産業や<br class="pc">健康デバイスメーカーと<br class="pc">業務提携</div>
                                 <div class="sec04_flex_cont03"><img src="{{ .Site.BaseURL }}images/img01.jpg" alt=""></div>
                             </div>
                         </div>
@@ -129,7 +166,7 @@
                         <div class="sec04_flex_cont">
                             <div class="sec04_flex_cont01">睡眠医療</div>
                             <div class="sec04_flex_cont02_flex">
-                            <div class="sec04_flex_cont02">病院や大学との連携<br>
+                            <div class="sec04_flex_cont02 sp_text_center">病院や大学との連携<br>
                             <span class="text_s">無呼吸症候群の簡易診断での共同研究<br>
                             パーキンソン病での共同研究<br>
                             鬱病・躁鬱病・統合失調症での共同研究<br>
@@ -140,7 +177,7 @@
                     </div>
                 </div>
             </div>
-            <div class="sec04_bar02"><img src="{{ .Site.BaseURL }}images/bar03.jpg" alt=""></div>
+            <div class="sec04_bar02 pconry"><img src="{{ .Site.BaseURL }}images/bar03.jpg" alt=""></div>
         </div>
         
     </section>
@@ -156,9 +193,11 @@
     
     <div class="sec05_cont">
     
+    <h2 class="sponry">経営陣</h2>
+    
     <table>
         <thead>
-            <tr>
+            <tr class="pconry">
                 <th><span>経営陣</span></th>
                 <td> </td>
             </tr>
@@ -192,11 +231,12 @@
     
         <section>
        <div class="sec06">
-            <div class="sec06_img"><img src="{{ .Site.BaseURL }}images/bar02.jpg" alt=""></div>
+            <div class="sec06_img pconry"><img src="{{ .Site.BaseURL }}images/bar02.jpg" alt=""></div>
             <div class="sec06_table">
+            <h2 class="sponry">会社概要</h2>
               <table>
                    <thead>
-                    <tr>
+                    <tr class="pconry">
                     <th><span>会社概要</span></th><td> </td>
                     </tr>
                     <tr>
