@@ -34,6 +34,7 @@
 .menu__items__item {
     display: block;
     padding: 0.75rem 1.45rem;
+    font-size: 14px;
 }
 
 .menu__items:last-child {
@@ -47,6 +48,12 @@
 .menu__toggle[open=""] {
     color: var(--pink);
 }
+
+
+summary maker::{
+    color: rgba(0,0,0,0);
+}
+
 
 /* HERO */
 .hero {

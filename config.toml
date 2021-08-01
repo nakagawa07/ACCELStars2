@@ -1,5 +1,5 @@
 baseurl = "https://nakagawa07.github.io/ACCELStars2/"
-title = "ACCELStars2"
+title = "ACCELStars"
 author = "Daniel Zaragoza (Danielkvist)"
 googleAnalytics = ""
 enableRobotsTXT = true
@@ -100,7 +100,8 @@ themesDir = "themes/"
 
 
 [params.date]
-    format = "7. 2, 2006"
+    format = "2006-01-02"
+    
 
 [params.social]
     twitter = "#"

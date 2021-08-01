@@ -1,3 +1,25 @@
+
+
+::marker {
+    color: rgba(0,0,0,0);
+}
+
+.menu__toggle[open=""] {
+    background-image: url(../images/hun02.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #fff;
+}
+
+.menu__toggle {
+        background-image:url("../images/hun01.png");
+        background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+html { scroll-behavior: smooth;}
+
 .top_logo{
     text-align: center;
     width: 50%;
@@ -15,10 +37,25 @@
 }
 
 .cath01{
-    
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
 }
 
+.about_bar{
+    margin: 40px 0;
+}
 
+.about_name{
+    font-size: 18px!important;
+    font-weight: 700;
+}
+
+.about_name span{
+    font-size: 12px;
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
 
 .cath01 h2 {
     font-size: 50px!important;
@@ -27,8 +64,9 @@
 
 .cath01sub{
     display: inline-block;
-    margin: 0 0 0 0px;
+    margin: 0 0 0 10px;
     font-size: 18px;
+    font-weight: 600;
 }
 
 .cath01_02{
@@ -124,6 +162,10 @@ section .sec02{
     margin: 0 0 8px;
 }
 
+
+.sec02_cath h2 a {
+    color: #fff;
+}
 
 
 .triangle3{
@@ -292,6 +334,8 @@ section .sec02{
 
 body {
  overflow-x: hidden;
+    width:1100px;
+    margin: 0 auto;
 }
 
 .sec01{
@@ -424,21 +468,54 @@ section .sec05{
     background-position: right;
 }
 
+.teamprofile h2{
+    font-size: 24px;
+}
+
+.teamprofile h2 a{
+    color: #fff;
+    border-bottom: solid 1px #fff;
+    display: block;
+    padding: 20px 0;
+    font-weight: 600;
+}
+
 section .sec06{
     margin: 160px 0 0;
 }
 
-.sec05_cont table {
+
+.teamprofile{
     color: #fff;
     margin: 80px auto 100px;
     width: 50%;
 }
 
+.teamprofile_link{
+    margin: 30px 0 0;
+}
+
+.teamprofile_link a{
+    color: #fff;
+    font-size: 20px;
+}
+
+.teamprofile_link a:hover{
+    color: #adadad;
+}
+
+
+.sec05_cont table {
+    color: #fff;
+    width: 100%;
+}
+
+
 .sec05_cont table th {
     text-align: left;
     font-size: 14px;
     font-weight: 500;
-    padding: 16px 0;
+    padding: 20px 0;
 }
 
 .sec05_cont table td{
@@ -470,6 +547,23 @@ section .sec06{
     text-align: left;
     font-size: 14px;
 }
+
+
+
+.sec06_table h2{
+    font-size: 24px;
+    margin: 50px 0 0;
+}
+
+.sec06_table h2 a{
+    color: #000;
+    border-bottom: solid 1px #000;
+    display: block;
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+
 
 .sec06 table td{
     font-size: 16px;
@@ -541,8 +635,18 @@ section .sec_news ul time {
 }
 
 
+a.anchor {
+    display: block;
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
 
 @media screen and (max-width:599px) {
+    
+    body{
+        width: 100%;
+    }
     
     .top_logo {
     width: 100%;
@@ -568,6 +672,21 @@ section .sec_news ul time {
         display: block;
     }
     
+    .cath01{
+        flex-direction: column;
+        align-items: normal;
+    }
+    
+    .cath01sub{
+        margin: 0;
+        font-size: 16px;
+    }
+    
+    .cath01_02{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
     section h2 {
         background-image: url("../images/spbar01.jpg");
         color: #fff;
@@ -577,6 +696,14 @@ section .sec_news ul time {
         margin: 0 0 20px;
     }
     
+    
+    .cath01 h2 {
+    font-size: 24px!important;
+    }
+    
+    .cath01 h2 a{
+    color: #fff;
+    }
     
     section .sec02 {
      background-image: none;
@@ -620,6 +747,10 @@ section .sec_news ul time {
         font-size: 24px !important;
     }
     
+    h2 a{
+        color: #fff;
+    }
+    
     .sec04_flex{
         flex-direction: column;
     }
@@ -628,6 +759,26 @@ section .sec_news ul time {
         width: 100%;
         margin: 0;
         margin: 0 0 40px;
+    }
+    
+    .teamprofile{
+        width: 100%;
+        margin: 0;
+    }
+    
+    .teamprofile h2 a {
+     border-bottom: none; 
+     padding: 0px 0; 
+    }
+    
+    .sec06_table h2{
+        padding: 0 0 0 50px;
+    }
+    
+    .sec06_table h2 a{
+        color: #fff;
+        border-bottom:none;
+        padding: 8px 0;
     }
     
     .pc { display:none; }

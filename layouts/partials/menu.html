@@ -1,14 +1,27 @@
+
 <nav class="menu">
     <details class="menu__toggle">
-        <summary class="menu__toggle__title">Menu</summary>
+        <summary class="menu__toggle__title"></summary>
 
         <div class="menu__items" role="menu">
-            {{ range $.Site.Menus.main }}
-            <a href="{{ .URL }}" class="menu__items__item" alt="{{ .Name }}" role="menuitem">
-                {{ .Name }}
-            </a>
-            {{ end }}
+
+
+            <a href="/blog/" class="menu__items__item" role="menuitem">News</a>
+            <a href="#menu01" class="menu__items__item" role="menuitem">Vision</a>
+            <a href="#menu02" class="menu__items__item" role="menuitem">睡眠と疾患の関係</a>
+            <a href="#menu03" class="menu__items__item" role="menuitem">Technology</a>
+            <a href="#menu04" class="menu__items__item" role="menuitem">Strategy & Project</a>
+            <a href="#menu05" class="menu__items__item" role="menuitem">経営陣</a>
+            <a href="/about/" class="menu__items__item" role="menuitem">Team Profile</a>
+            <a href="#menu06" class="menu__items__item" role="menuitem">会社概要</a>
+            
+            
         </div>
 
     </details>
+
+
+
+
 </nav>
+
