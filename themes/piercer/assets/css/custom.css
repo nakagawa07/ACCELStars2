@@ -4,6 +4,10 @@
     color: rgba(0,0,0,0);
 }
 
+summary::-webkit-details-marker{
+    color: rgba(0,0,0,0);
+}
+
 .menu__toggle[open=""] {
     background-image: url(../images/hun02.png);
     background-repeat: no-repeat;
@@ -645,6 +649,10 @@ a.anchor {
 @media screen and (max-width:599px) {
     
     body{
+        width: 100%;
+    }
+    
+    .hero{
         width: 100%;
     }
     
