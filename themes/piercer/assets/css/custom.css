@@ -13,6 +13,10 @@
     color: rgba(0,0,0,0);
 }
 
+.top_view{
+    height: 680px;
+}
+
 summary::-webkit-details-marker{
     color: rgba(0,0,0,0);
 }
@@ -36,6 +40,7 @@ html { scroll-behavior: smooth;}
 .top_logo{
     text-align: center;
     width: 50%;
+    margin: 60px auto 0;
 }
 
 .top_img2col{
@@ -608,7 +613,7 @@ section .sec06{
 }
 
 section .sec_news{
-    margin: 160px auto 100px;
+    margin: 100px auto 100px;
 }
 
 section .sec_news h2{
@@ -716,7 +721,8 @@ a.anchor {
     
     
     .cath01 h2 {
-    font-size: 24px!important;
+    font-size: 22px!important;
+    font-weight: 600;
     }
     
     .cath01 h2 a{
@@ -755,6 +761,7 @@ a.anchor {
     .sec03_imgtxt{
         color: #333;
         margin: 0px 0 0 10px;
+        font-size: 12px;
     }
     
     .sec04_bar01{
@@ -762,7 +769,8 @@ a.anchor {
     }
     
     .sec02_cath h2, section .sec03 h2,.sec04_cath h2{
-        font-size: 24px !important;
+        font-size: 20px !important;
+    font-weight: 600;
     }
     
     h2 a{
@@ -812,6 +820,11 @@ a.anchor {
         text-align: center;
     }
     
+    .sec04_cath_txt{
+        font-size: 16px;
+        margin: 0 0 14px;
+    }
+    
     .stepboximg{
         width: 20%;
     }
@@ -827,8 +840,18 @@ a.anchor {
     .sec04_flex_cont span{
         margin: 0px 0 18px;
         font-size: 14px;
+        text-align: left;
+        line-height: 24px;
     }
     
+    .teamprofile h2,.sec06_table h2{
+        font-size: 18px;
+        margin: 0 0 18px;
+    }
+    
+    .sec05_cont table td {
+    font-size: 16px;
+    }
     
     section .sec05{
         background-image: none;
@@ -852,6 +875,15 @@ a.anchor {
     }
     
     .sec06 table td{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
+    .text14{
+        font-size: 14px!important;
+    }
+    
+    .sec06 table td span{
         font-size: 14px;
     }
     
@@ -867,11 +899,47 @@ a.anchor {
         margin: 100px auto 0px;
     }
     
-    
+    .footer__copy{
+        font-size: 14px;
+    }
     
     section .sec06{
         margin: 80px 0 0;
     }
+    
+    
+    .top_view{
+        height: 470px;
+    }
+    
+    .hero {
+        font-size: 14px;
+        padding: 3.75rem 1.45rem;
+    }
+    
+    .sec02_txt02{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    
+    .sec02_img{
+        margin: 0 auto 20px;
+        
+    }
+    
+    
+    .sec04_flex_cont01{
+        font-size: 16px;
+    }
+    
+    
+    .fontw{
+        font-weight: 500;
+    }
+    
+    
+    
     
     
 }
