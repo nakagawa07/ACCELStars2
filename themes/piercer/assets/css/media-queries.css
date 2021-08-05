@@ -88,7 +88,7 @@
     }
 
     .header__title__link--logo {
-        width: 25%;
+        width: 180px;
     }
 
     /* SECTIONS */
@@ -120,7 +120,7 @@
 @media only screen and (min-width: 1000px) {
     /* HEADER */
     .header__title__link--logo {
-        width: 20%;
+        width: 180px;
     }
 
     /* PAGINATION */
