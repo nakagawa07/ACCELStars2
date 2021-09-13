@@ -660,6 +660,15 @@ a.anchor {
     margin-top: -70px;
 }
 
+.blogbar{
+    margin: 0 0 40px;
+}
+
+.news_title{
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0 0 40px;
+}
 
 @media screen and (max-width:599px) {
     
@@ -938,7 +947,9 @@ a.anchor {
         font-weight: 500;
     }
     
-    
+    .single__header {
+    padding: 1.45rem 6%;
+    }
     
     
     
@@ -1302,6 +1313,17 @@ a.anchor {
     }
     
     
+    .single__header{
+        padding: 1.45rem 9%;
+    }
+    
+    .single__header>h1{
+        font-size: 20px;
+    }
+    
+    .single__content{
+        font-size: 20px;
+    }
 
     
     

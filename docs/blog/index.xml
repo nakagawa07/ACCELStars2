@@ -16,34 +16,5 @@
       <description>サイトを公開しました</description>
     </item>
     
-    <item>
-      <title>Rich Content</title>
-      <link>https://nakagawa07.github.io/ACCELStars2/blog/rich_content/</link>
-      <pubDate>Thu, 28 Mar 2019 12:42:22 +0100</pubDate>
-      
-      <guid>https://nakagawa07.github.io/ACCELStars2/blog/rich_content/</guid>
-      <description>Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
- Instagram Simple Shortcode .__h_instagram.card { font-family: -apple-system,BlinkMacSystemFont,&#34;Segoe UI&#34;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&#34;Helvetica Neue&#34;,sans-serif; font-size: 14px; border: 1px solid rgb(219, 219, 219); padding: 0; margin-top: 30px; } .__h_instagram.card .card-header, .__h_instagram.card .card-body { padding: 10px 10px 10px; } .__h_instagram.card img { width: 100%; height: auto; }  koloot.</description>
-    </item>
-    
-    <item>
-      <title>Placeholder</title>
-      <link>https://nakagawa07.github.io/ACCELStars2/blog/placeholder/</link>
-      <pubDate>Thu, 28 Mar 2019 12:41:07 +0100</pubDate>
-      
-      <guid>https://nakagawa07.github.io/ACCELStars2/blog/placeholder/</guid>
-      <description>Mole et vultus populifer quaque primoque non Lorem est tota propiore conpellat pectoribus de pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.
- Exierant elisi ambit vivere dedere Duce pollice Eris modo Spargitque ferrea quos palude  Rursus nulli murmur; hastile inridet ut ab gravi sententia!</description>
-    </item>
-    
-    <item>
-      <title>Markdown</title>
-      <link>https://nakagawa07.github.io/ACCELStars2/blog/markdown/</link>
-      <pubDate>Thu, 28 Mar 2019 12:39:56 +0100</pubDate>
-      
-      <guid>https://nakagawa07.github.io/ACCELStars2/blog/markdown/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
   </channel>
 </rss>

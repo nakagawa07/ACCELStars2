@@ -2,6 +2,8 @@
 title: "Team Profile"
 description: ""
 draft: false
+_build: { list: false }
+layout: "about"
 images: []
 menu: main
 weight: 2

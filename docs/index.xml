@@ -8,82 +8,12 @@
     <language>ja-jp</language>
     <lastBuildDate>Thu, 29 Jul 2021 15:50:48 +0900</lastBuildDate><atom:link href="https://nakagawa07.github.io/ACCELStars2/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Dracula</title>
-      <link>https://nakagawa07.github.io/ACCELStars2/sections/dracula/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nakagawa07.github.io/ACCELStars2/sections/dracula/</guid>
-      <description>Dracula is an 1897 Gothic horror novel by Irish author Bram Stoker. It introduced the character of Count Dracula, and established many conventions of subsequent vampire fantasy.The novel tells the story of Dracula&amp;rsquo;s attempt to move from Transylvania to England so that he may find new blood and spread the undead curse, and of the battle between Dracula and a small group of men and a woman led by Professor Abraham Van Helsing.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://nakagawa07.github.io/ACCELStars2/sections/piercer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nakagawa07.github.io/ACCELStars2/sections/piercer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Team Profile</title>
-      <link>https://nakagawa07.github.io/ACCELStars2/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nakagawa07.github.io/ACCELStars2/about/</guid>
-      <description>宮原 禎 代表取締役CEO 新卒でリクルート（現リクルートホールディングス）入社。複数社の経験を経てヘルスデータ プラットフォーム社社長に就任。ヘルスデータプラットフォームであるPep Upを立ち上げ、国 内最大級のPHRサービスへ成長させる。JMDC統合後はFitbit社との日本独占提携などを指 揮し、全社新規事業開発、提携、マーケティング戦略責任者を経験し2021年5月より現職。
- 上田 泰己 取締役CTO 2000年東大医学部卒。2004年に同大学院 医学系研究科修了。2003年から理化学研究所 チームリーダー等を経て2013年より東京大学大学院医学系研究科教授。現在、理化学研究 所チームリーダー、東京大学 大学院情報理工学研究科教授などを兼務。専門はシステムズ 薬理学・睡眠。受賞多数。
- 見満 周宜 取締役 東京大学経済学部経営学科卒。1999年アンダーセンコンサルティング、2000年 株式会社 ICP、2002年インスパイア入社、2006年インスパイア取締役、2008年インスパイア取締役副 社長、その他インスパイア投資先であるユーグレナ、ギフティなどの社外取締役等を歴任。
- 岩佐 琢磨 社外取締役 「ネット×家電」の商品開発を志し、2003年、松下電器産業（現パナソニック）に入社。eネット 事業本部に配属され、デジタルカメラ「LUMIX」やレコーダー「DIGA」などのネット対応家電 の商品開発に携わり、2007年にパナソニックを退職。翌年、ハードウエアベンチャー・株式会 社Cerevoを設立し、代表取締役に就任。2018年4月にパナソニック完全子会社となる Shiftallを設立。
- 緒方 貴紀 執行役員 2012年9月に株式会社ABEJAを共同創業。コンピュータービジョン・機械学習の応用研究・ プロダクト開発や組織マネジメント、技術戦略や技術ブランディング等を行う。2020年9月よ り様々な会社の技術開発・組織開発支援を行いつつ、学術機関にて人と機械学習の共創に 関する研究を進めている。</description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://nakagawa07.github.io/ACCELStars2/sections/what_hugo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nakagawa07.github.io/ACCELStars2/sections/what_hugo/</guid>
-      <description>Hugo is a surname and male given name of Germanic origin Hugo, meaning &amp;ldquo;mind&amp;rdquo;. The English version of the name is Hugh, the Italian version is Ugo. For detailed history and etymology of the name, see Hugh (given name).
-Hugo is one of the most popular given names in Europe, ranking as high as #9 in Spain, and #8 in Belgium in 2006. April 1 is the name day of Hugo in many European countries.</description>
-    </item>
-    
-    <item>
       <title>サイトを公開しました</title>
       <link>https://nakagawa07.github.io/ACCELStars2/blog/first/</link>
       <pubDate>Thu, 29 Jul 2021 15:50:48 +0900</pubDate>
       
       <guid>https://nakagawa07.github.io/ACCELStars2/blog/first/</guid>
       <description>サイトを公開しました</description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>https://nakagawa07.github.io/ACCELStars2/blog/rich_content/</link>
-      <pubDate>Thu, 28 Mar 2019 12:42:22 +0100</pubDate>
-      
-      <guid>https://nakagawa07.github.io/ACCELStars2/blog/rich_content/</guid>
-      <description>Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
- Instagram Simple Shortcode .__h_instagram.card { font-family: -apple-system,BlinkMacSystemFont,&#34;Segoe UI&#34;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&#34;Helvetica Neue&#34;,sans-serif; font-size: 14px; border: 1px solid rgb(219, 219, 219); padding: 0; margin-top: 30px; } .__h_instagram.card .card-header, .__h_instagram.card .card-body { padding: 10px 10px 10px; } .__h_instagram.card img { width: 100%; height: auto; }  koloot.</description>
-    </item>
-    
-    <item>
-      <title>Placeholder</title>
-      <link>https://nakagawa07.github.io/ACCELStars2/blog/placeholder/</link>
-      <pubDate>Thu, 28 Mar 2019 12:41:07 +0100</pubDate>
-      
-      <guid>https://nakagawa07.github.io/ACCELStars2/blog/placeholder/</guid>
-      <description>Mole et vultus populifer quaque primoque non Lorem est tota propiore conpellat pectoribus de pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.
- Exierant elisi ambit vivere dedere Duce pollice Eris modo Spargitque ferrea quos palude  Rursus nulli murmur; hastile inridet ut ab gravi sententia!</description>
-    </item>
-    
-    <item>
-      <title>Markdown</title>
-      <link>https://nakagawa07.github.io/ACCELStars2/blog/markdown/</link>
-      <pubDate>Thu, 28 Mar 2019 12:39:56 +0100</pubDate>
-      
-      <guid>https://nakagawa07.github.io/ACCELStars2/blog/markdown/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
   </channel>

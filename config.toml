@@ -37,7 +37,7 @@ themesDir = "themes/"
     description = "Piercer is a fast and customizable theme for Hugo. Designed with a mobile-first philosophy and with accessibility in mind."
     favicon = "favicon.ico"
     logo = "images/head_logo.png"
-    customCSS = ["/Users/nakagawamizuhime/Desktop/test-site/themes/css/custom.css"]
+    customCSS = [""]
 
 [params.postcss]
     postcss = false
