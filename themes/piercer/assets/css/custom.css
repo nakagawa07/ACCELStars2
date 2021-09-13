@@ -670,6 +670,12 @@ a.anchor {
     margin: 0 0 40px;
 }
 
+    .news_title_list{
+        margin: 1.75rem 1.45rem;
+        font-weight: 700;
+    font-size: 24px;
+    }
+
 @media screen and (max-width:599px) {
     
     body{
@@ -951,6 +957,7 @@ a.anchor {
     padding: 1.45rem 6%;
     }
     
+
     
     
 }

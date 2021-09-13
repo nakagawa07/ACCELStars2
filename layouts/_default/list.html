@@ -1,6 +1,9 @@
 {{ define "main" }}
 <div class="list">
 
+          <div class="news_title_list">News</div>
+
+   
     <!-- Content -->
     {{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "blog") }}
     {{ range $paginator.Pages }}
